@@ -17,7 +17,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "styled-components": "^5.1.1",
-    "homepage": "https://nadia74.github.io/E-scola-dev/public/index.html"
+    "homepage": "https://nadia74.github.io/E-scola-dev/front/public/index.html"
   },
   "scripts": {
     "start": "react-scripts start",
