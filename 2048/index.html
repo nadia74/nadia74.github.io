@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rush 2048</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Sniglet&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div></div>
+    <div class="intro">
+
+        <p>
+            Pour démarrer puis jouer, utiliser les flèches du clavier :<p> <img src="img/start.png" id="start"></p>
+
+    </div>
+    <div class="Games">
+        <!-- le 2048 sera inséré ici -->
+    </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script type="text/javascript" src="js/Base2048.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('.Games').game2048(); // appel de la fonction 'game2048' du pluggin appliquée à la div de class 'Games'
+        });
+    </script>
+    <div id="rumble">
+
+
+        <table>
+            <tr>
+                <td id="restart"></td>
+                 <td id="navig"><a href=varianteAvecImages/index.html>Play with Pictures</a>  </td>
+            </tr>
+        </table>
+       
+    
+
+    </div>
+
+    <div class="rules">
+        <p>Deux espèces de poisson différentes et un trésor se sont cachés dans le jeu.<br>
+            Irez-vous assez loin pour les découvrir ?</p>
+        
+    </div>
+
+</body>
+</body>
+
+</html>
